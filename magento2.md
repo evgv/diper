@@ -39,3 +39,14 @@ chown -R :<web server group> .
 
 chmod u+x bin/magento
 ```
+
+
+###### Short way
+```bash
+
+chown -R myuser:webservergroup /var/www/magento2/
+chmod -R 755 /var/www/magento2/
+chmod -R 777 /var/www/magento2/var/
+chmod -R 777 /var/www/magento2/pub/
+
+```
